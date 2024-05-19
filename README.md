@@ -1,15 +1,12 @@
 # Learning Causal Dynamics Models in Object-Oriented Environments
 
-This is the source code for the paper "Learning Causal Dynamics Models in Object-Oriented Environments".
+This is the source code for the paper "Learning Causal Dynamics Models in Object-Oriented Environments", which was accpeted in ICML 2024.
+
+By Zhongwei Yu.
 
 # Installation
 
-First, you should have installed python >= 3.9 in your device.
-Then, make sure you have installed the python dependencies in `requirements.txt`. If not, use this command:
-
-```
-pip install -r ./requirements.txt
-```
+First, you should have installed python >= 3.9 in your device. Then, make sure you have installed the python dependencies in `requirements.txt`. 
 
 If you want to perform experiments in StarCraftII environments (CMS and DZB), please download and install StarCraftII in your device, and set the environment variable `SC2PATH` correctly. 
 
