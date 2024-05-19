@@ -1,0 +1,12 @@
+absl_py==1.4.0
+gymnasium==0.29.1
+joblib==1.4.0
+matplotlib==3.8.4
+numpy==1.21.5
+PySC2==4.0.0
+scikit_learn==1.4.2
+scipy==1.9.1
+stable_baselines3==2.3.2
+tensorboard==2.10.0
+tensorboardX==2.2
+torch==1.13.1
