@@ -16,7 +16,7 @@ If you want to perform experiments in StarCraftII environments (CMS and DZB), pl
 
 We use the class `Config` to contain hyper-parameters and basic configurations of experiments (i.e., number of samples, number of iterations, the device, etc). You can specify these hyper-parameters in `configs.py` as you want (check `config_mouse`, `config_block`, `CONFIG_CMS` and `CONFIG_DZB`).
 
-You can specify which experiment to perform by modifying lines 170-171 in  `run.py`:
+You can specify which experiment to perform by modifying `run.py`:
 * `experiment_1` trains dynamics models in a task. Then it measures the log-likelihoods, and evaluate the average episodic returns of planning. You can select the environments and approaches by modifying annotations.
 * `experiment_2` trains OO models in the seen tasks of Mouse environment. Then it measures log-likelihoods and episodic returns in both seen and unseen tasks.
 
